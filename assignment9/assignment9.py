@@ -40,7 +40,7 @@ elif 50 <= score < 60:
     grade = 'D'
 elif 0 <= score < 50:
     grade = 'F'
-
+print(grade)
 print(f"Please enter your season:")
 season = input().lower()
 if season == 'autumn' or season == 'fall':
